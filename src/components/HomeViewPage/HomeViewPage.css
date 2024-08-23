@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+}
+.view-page-container{
+    background-color: #210d0c;
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.view-page-content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.view-page-icon{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(249, 188, 5);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    padding: 3px;
+}
+.view-page-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: start;
+    padding-left: 0px;
+}
+.view-page-description{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.view-page-button{
+    background-color: rgb(249, 188, 5);
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 3px;
+
+}
+.view-page-image{
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.view-page-content2{
+    padding-top: 30px;
+}
+
+.view-page-title2{
+    color: #fff;
+    font-size: 40px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+.view-page-content-card-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.view-page-content-card{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.view-page-content{
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.view-page-image2{
+    height: 200px;
+    width: 250px;
+}
+.view-page-content-card-title{
+    color: #2c2e46;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.view-page-content-card-button{
+    background-color: rgb(249, 188, 5);
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    margin: 10px;
+}
+.view-page-title3{
+    color: #fff;
+    font-size: 40px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+.handle-trip-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.handle-trip-item{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.handle-trip-item-image{
+    height: 200px;
+    width: 250px;
+    margin-right: 20px;
+    box-shadow: #fff 2px 2px 2px 2px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    transform: scale(1.05);
+
+}
+.handle-trip-item-title{
+    color: rgb(249, 188, 5);
+    font-size: 30px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding-left: 25px;
+}
+.handle-trip-item-description{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.view-page-title4{
+    color: #fff;
+    font-size: 40px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+}
+.traveller-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.traveller-item{
+    background-color: #fff;
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+    background-size: cover;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.traveller-description{
+    color: #2c2e46;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.traveller-initial{
+    color: #fff;
+    font-size: 25px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    background-color: rgb(249, 188, 5);
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 5px;
+    margin-left: 35%;
+}
+.traveller-name{
+    color: #210d0c;
+    font-size: 20px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .view-page-content1{
+        flex-direction: column;
+    }
+    .view-page-icon{
+        margin-left: 45%;
+    }
+    .view-page-title{
+        text-align: center;
+    }
+    .view-page-description{
+        text-align: center;
+        padding: 5px;
+    }
+    .view-page-button{
+        margin-left: 30px;
+    }
+    .view-page-image{
+        height: 350px;
+        width: 350px;
+        margin-left: 50px;
+    }
+    .view-page-content li{
+        color: #210d0c;
+    }
+    .handle-trip-item{
+        height: 300px;
+        width: 300px;
+        border: 1px double #fff;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .handle-trip-item-title{
+        text-align: center;
+    }
+    .handle-trip-item-image{
+        display: none;
+    }
+}

@@ -1,0 +1,64 @@
+.home-bg-container{
+    background-image: url("https://w0.peakpx.com/wallpaper/639/301/HD-wallpaper-amazing-places-ultra-nature-lakes-blue-travel-beautiful-landscape-sunset-scenery-lake-background-mountains-amazing-canada-peaks-azure-alberta-moraine-banff-visit-nationalpark-tourism.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-icon{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(249, 188, 5);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    padding: 3px;
+}
+.home-icon-container{
+    display: flex;
+}
+.home-icon-text{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.home-heading{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+}
+.home-description{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.home-button{
+    background-color: rgb(249, 188, 5);
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-left: 40%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home-bg-container{
+        background-image: url("https://i.pinimg.com/474x/fe/17/38/fe17382177808832e17057bb40c8f10b.jpg");
+    }
+    .home-button{
+        margin-left: 35%;
+        margin-top: 20px;
+    }
+}
